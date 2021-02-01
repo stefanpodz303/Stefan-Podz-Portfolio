@@ -2,51 +2,139 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
+}
+body {
+    background-color: thistle;
 }
 
 header {
     display: flex;
-    background-color: #fb4f14;
+    justify-content: space-between;
+    background-image: url("./images/programming.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
     padding: 25px;
     padding-left: 0px;
-    justify-content: space-between;
+    min-width: 100%;
+    min-height: 150px;
 }
 
 nav {
-    background-color: #fb4f14;
-    margin: 0px;
-    padding: 0px;
-    padding-left: 0;
-    padding-bottom: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
 
 }
 
-.name {
-    color: #002244;
-    background-color: white;
+#name {
+    display: column;
+    color: rgb(250, 250, 69);
     margin-left: 0px;
     margin-right: 0px;
+    padding-top: 100px;
     padding-left: 50px;
     padding-right: 0;
     padding-bottom: 0;
-    font-size: 35px;
+    font-size: 40px;
     text-decoration: none;
     
 }
 
-.right-links {
-    margin: 15px;
-    font-size: 20px;
+.nav-links {
+    padding: 20px;
+    margin: 0px;
+    font-size: 25px;
+    color: rgb(250, 250, 69);
 
 }
 
-.container {
-    background-image: url("./images/programming.png");
-    width: 100%;
-    height: 200px;
+#subtitle {
+    display: flex;
+    justify-content: center;
+    background-color: thistle;
+}
+
+#portfolio {
+    font-size: 50px;
+    background-color: thistle;
     
 }
 
+#about-me {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0;
+    background-color: thistle;
+    margin-bottom: 30px;
+    
+}
 
+#AM {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid black;
+    width: 300px;
+    height: 300px;
+     
 
+}
 
+#AM-para {
+    
+    padding-right: 0;
+    width: 300px;
+    height: 300px;
+}
+    
+#work {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0;
+    background-color: thistle;
+    
+}
+
+#work-header {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid black;
+    width: 300px;
+    height: 300px;
+    
+
+}
+
+#work-box {
+    display: flex;
+    padding-right: 0;
+    width: 300px;
+    height: 300px;
+}
+
+#contact-me {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0;
+    background-color: thistle;
+    
+}
+
+#cm-header {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid black;
+    width: 300px;
+    height: 300px;
+    
+
+}
+
+.cm-links {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 0;
+    width: 300px;
+    height: 300px;
+}
