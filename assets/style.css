@@ -10,7 +10,7 @@ body {
     background-color:rgb(173, 204, 233);
 }
 
-header {
+/* header {
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -20,6 +20,15 @@ header {
     min-width: 100%;
     min-height: 100%;
     
+} */
+.navbar {
+    background-color: black !important;
+    padding: 30px;
+}
+.navbar-brand {
+    
+    font-size: 35px;
+    color: rgb(250, 250, 69) !important;
 }
 
 nav {
@@ -44,13 +53,28 @@ nav {
     
 }
 
-.nav-links {
-    padding: 20px;
-    padding-bottom: 30px;
+
+.nav-link {
+    
+    
     margin: 0px;
     font-size: 25px;
-    color: rgb(250, 250, 69);
+    color: rgb(250, 250, 69) !important;
     
+}
+#AM-nav {
+    border: 1px solid rgb(250, 250, 69) !important;
+}
+
+#work-nav {
+    border: 1px solid rgb(250, 250, 69) !important;
+}
+#CM-nav {
+    border: 1px solid rgb(250, 250, 69) !important;
+}
+
+#resume-nav {
+    border: 1px solid rgb(250, 250, 69) !important;
 }
 
 #subtitle {

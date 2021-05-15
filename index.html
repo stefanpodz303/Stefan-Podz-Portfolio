@@ -4,33 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <script src="https://kit.fontawesome.com/737d647828.js" crossorigin="anonymous"></script>
     <title>Podzinski Portfolio</title>
 </head>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand " href="#">Stefan Podzinski</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" id='AM-nav' href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" id='work-nav' href="#work">Work</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" id='CM-nav' href="#contact-me">Contact Me</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link " id='resume-nav' href="./assets/images/SPodzinski-Resume - 2021.pdf"
+            target="_blank">Resume</a>
+        </li>
+    </ul>
+</div>
+</nav>
 <body>
-    <header>
-        <div id=name> Stefan Podzinski</div>
-        <nav>
-            <div>
-                <a href="./assets/images/SPodzinski-Resume - 2021.pdf" target="_blank" class="nav-links">Resume</a>
-            </div>
-            <div>
-                <a href="#contact-me" class="nav-links">Contact Me</a>
-            </div>
-            <div>
-                <a href="#work" class="nav-links">Work</a>
-            </div>
-            <div>
-                <a href="#about-me" class="nav-links">About Me</a>
-            </div>
-        </nav>
-    </header>
-    <div id="subtitle">
-        <div id="portfolio">
-            <p>Portfolio</p>
-        </div>
+<div id="subtitle">
+    <div id="portfolio">
+        <p>Portfolio</p>
     </div>
+</div>
     <section id="about-me">
 
         <div class="header">
@@ -98,6 +108,12 @@
             </div>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
