@@ -93,13 +93,13 @@ nav {
 
 
 
-#about-me {
+/* #about-me {
     display: flex;
     justify-content: flex-start;
     background-color: rgb(173, 204, 233);
     margin-bottom: 30px; 
     
-}
+} */
 
 .header {
     display: flex;
@@ -145,19 +145,15 @@ nav {
     height:300px;
 }
 
-#work {
+/* #work {
     display: flex;
     justify-content: space-around;
     margin-bottom: 30px;
     background-color:rgb(173, 204, 233);
     min-width: 300px;
     min-height: 300px;  
-}
-#project-pic {
-    display: flex;
-    justify-content: space-between;
-    font-size:20px;
-}  
+} */
+
 
  .image {
     max-width:250px;
