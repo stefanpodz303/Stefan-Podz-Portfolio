@@ -23,91 +23,174 @@
             <a class="nav-link" id='AM-nav' href="#about-me">About Me</a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" id='work-nav' href="#work">Work</a>
-        </li>
-        <li class="nav-item active">
             <a class="nav-link" id='CM-nav' href="#contact-me">Contact Me</a>
         </li>
         <li class="nav-item active">
             <a class="nav-link " id='resume-nav' href="./assets/images/SPodzinski-Resume - 2021.pdf"
             target="_blank">Resume</a>
         </li>
+        <li class="nav-item active">
+            <a class="nav-link" id='work-nav' href="#work">Work</a>
+        </li>
     </ul>
 </div>
 </nav>
 <body>
-<div id="subtitle">
-    <div id="portfolio">
+<div class= "container" id="portfolio">
+    
         <p>Portfolio</p>
-    </div>
+  
 </div>
-    <section id="about-me">
+<body>
 
-        <div class="header">
-            <h2>About Me</h2>
-        </div>
-        <div class="content">
-            <div id="AM-pic">
-                <a href="https://linkedin.com/in/stefan-podzinski303" target="_blank">
-                <img src="./assets/images/profile-pic.png" alt="Profile Picture"></a>
-
+    <br>
+    <div class="container" id="about-me">
+        <div class="row">
+            <div class="col-sm-2">
+                <h4>
+                    About Me
+                </h4>
             </div>
-            <div id="AM-para">
-                <p>
-                    My name is Stefan Podzinski and I am a stay at home dad to two amazing boys. I am
-                    an
-                    aspiring
-                    programmer looking to build my skills with HTML, CSS, JavaScript, jQuery, Node.js, React as well as other languages and technologies. I
-                    am currently attending a full-stack developement boot camp through UNC-Charlotte.</p>
+
+            <div class="col-sm-10">
+                <div id="AM-pic justify-content-center">
+                    <a href="https://linkedin.com/in/stefan-podzinski303" target="_blank">
+                    <img src="./assets/images/profile-pic.png" alt="Profile Picture"></a>
+    
+                </div>
                 <br>
-                <p>
-                    After my anticipated graduation in July I hope to continue honing my skills and re-enter the workforce as
-                    a full-stack developer.</p>
+              My name is Stefan Podzinski and I am a stay at home dad to two
+              amazing boys. I am an aspiring programmer continuing to build my skills
+              with HTML, CSS, JavaScript, jQuery, Node.js, Express.js, MySQL, MongoDB, React as well as other
+              languages and technologies. I am currently attending a full-stack web
+              developement boot camp through UNC-Charlotte and Trilogy Education.
+                <br><br>
+                After my anticipated graduation in July I hope to continue honing my
+                    skills and re-enter the workforce as a full-stack developer.
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+
+    <div class="container" id="work">
+        <div class="row">
+            <div class="col-sm-2">
+                <h4>
+                    Example Work
+                </h4>
             </div>
 
-        </div>
-    </section>
-    <section id="work">
-        <div class="header">
-            <h2>Work</h2>
-        </div>
-        <div class="content">
-            <div id="project-pic">
-                <div class="link-pic">
-                    <a href="https://github.com/stefanpodz303/The-Dad-DOJO" target="_blank">
-                    <img class="image" src="./assets/images/The-Dad-DOJO.png" alt="Project Picture"></a>
-                    <div class="port-project"> 
-                        <a href="https://stefanpodz303.github.io/The-Dad-DOJO/" target="_blank">The Dad DOJO</a>
+            <div class="col-sm-10">
+                <div class="card bg-light mb-3">
+                    <div class="card-header">Project 1: Team Project Web APIs</div>
+                    <a href="https://stefanpodz303.github.io/The-Dad-DOJO/" target="_blank"><img
+                            src="./assets/images/dad-dojo.png" class="card-img-top img-thumbnail"
+                            alt="Screen shot of our Project 1 "></a>
+                    <div class="card-body">
+                        <p class="card-text">A team project designed to practice the "fetching" of 3rd party web APIs. Our team
+                            created The Dad DOJO. Using HTML, CSS, Javascript and several other third party APIs we created a website that allows users to search new BBQ recipes, "Dad" jokes, and cocktail recipes.
+                            Each modal lets the user cycle through a variety BBQ recipes, cocktail recipes, and jokes. If a user likes a joke or recipe our site allows them to save it to their "favorites" section and it is stored in local storage for the next time they visit the site.
+                        </p>
+                        <br>
+                        <p class="card-footer bg-transparent text-right align-bottom">
+                            <a href="https://github.com/stefanpodz303/The-Dad-DOJO" class="badge badge-dark"
+                                target="_blank">GitHub Repository</a> <a href="https://stefanpodz303.github.io/The-Dad-DOJO/"
+                                class="badge badge-dark" target="_blank">Deployed Project</a>
+                        </p>
                     </div>
                 </div>
-                <div class="link-pic">
-                    <a href="https://github.com/stefanpodz303/Timed-Coding-Quiz" target="_blank">
-                    <img class="image" src="./assets/images/codeQuizStart.png" alt="Portfolio Picture"></a>
-                    <div class="port-project"><a href="https://stefanpodz303.github.io/Timed-Coding-Quiz/" target='_blank'> Timed Coding Quiz</a></div>
-                    
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5 d-flex align-items-stretch">
+                <div class="card bg-light mb-3">
+                    <div class="card-header">Project 2: Full-Stack MVC Model App</div>
+                    <a href="https://www.viktoriiasvaxxpassport.com/" target="_blank"> <img
+                            src="./assets/images/vvp.png" class="card-img-top img-thumbnail"
+                            alt="Screen shot of our MVC app"></a>
+                    <div class="card-body">
+                        <p class="card-text">Team project exercising the complete MVC stack leverging
+                            Node.js, Sequelize, Handlebars and deployed to Heroku. The notable
+                            capability here is basic integration with email via <a href="https://sendgrid.com/"
+                                target="_blank">sendgrid</a>, and deployment to a custom domain.
+                            </p>
+                        <br>
+                        <p class="card-footer bg-transparent text-right align-bottom">
+                            <a href="https://github.com/Team-6-Project-2/vvp" class="badge badge-dark"
+                                target="_blank">GitHub Repository</a> <a
+                                href="https://www.viktoriiasvaxxpassport.com/" class="badge badge-dark"
+                                target="_blank">Deployed Project</a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 d-flex align-items-stretch">
+                <div class="card bg-light mb-3">
+                    <div class="card-header">Exercise 4: Code Quiz</div>
+                    <a href="https://stefanpodz303.github.io/Timed-Coding-Quiz/" target="_blank"> <img src="./assets/images/codeQuizStart.png"
+                            class="card-img-top img-thumbnail" alt="Screen shot of my code quiz">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">An individual project that showcases some basic HTML, CSS and vanilla JavaScript features.
+                            <br>
+                        <p class="card-footer bg-transparent text-right align-bottom">
+                            <a href="https://github.com/stefanpodz303/Timed-Coding-Quiz" class="badge badge-dark"
+                                target="_blank">GitHub Repository</a> <a href="https://stefanpodz303.github.io/Timed-Coding-Quiz/"
+                                class="badge badge-dark" target="_blank">Deployed Project</a>
+                        </p>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="contact-me">
-        <div class="header">
-            <h2>Contact Me</h2>
+    </div>
+
+    <br>
+   
+    <hr>
+
+    <div class="container" id="contact-me">
+        <div class="row">
+            <h4>Contact Me</h4>
+            <div class="col-sm-10 d-flex justify-content-center">
+                    <ul class="list-group list-group-horizontal">
+                        <!-- <li class="list-group-item border-0">
+                            <a>(C): 303-842-2902</a>
+                        </li> -->
+                        <li class="list-group-item border-0">
+                            <a>stefanpodz@yahoo.com
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <a href="https://linkedin.com/in/stefan-podzinski303" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <a href="https://github.com/stefanpodz303" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <a href="./assets/images/SPodzinski-Resume - 2021.pdf" target="_blank">
+                                <i class="far fa-file"></i>
+                            </a>
+                        </li>
+                    </ul>
+              <br>
+            </div>
         </div>
-        <div class="content">
-            <div class="cm-links">
-                <a href="#phoneNumber">(C): 303-842-2902</a>
-            </div>
-            <div class="cm-links">
-                <a href="#stefanpodz@yahoo.com">stefanpodz@yahoo.com</a>
-            </div>
-            <div class="cm-links">
-                <a href="https://github.com/stefanpodz303" target="_blank">GitHub</a>
-            </div>
-            <div class="cm-links">
-                <a href="https://linkedin.com/in/stefan-podzinski303" target="_blank">LinkedIn</a>
-            </div>
-        </div>
-    </section>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
