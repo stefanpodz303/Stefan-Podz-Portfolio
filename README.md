@@ -46,6 +46,6 @@ https://stefanpodz303.github.io/Stefan-Podzinski-Portfolio/
 - stefanpodz@yahoo.com
 
 
-![screenshot of webpage](assets/images/Screenshot.png)
+![screenshot of webpage](assets/images/newPortfolioSS.png)
 
  
